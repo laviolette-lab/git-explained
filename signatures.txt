@@ -1,5 +1,16 @@
 SIGN BELOW!
 
+person again?
+
+<<<<<<< HEAD
+person
+=======
+<<<<<<< HEAD
+
+
+Quincy
+=======
+
 Biprojit Nath
 was here
 
@@ -14,3 +25,9 @@ now here too
 Allison Kirby Lowman 
 
 MICHAEL
+<<<<<<< HEAD
+SB
+=======
+>>>>>>> origin/main
+>>>>>>> origin/main
+>>>>>>> origin/main
