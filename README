@@ -29,9 +29,12 @@ Git is a version control system that allows you to track changes to your code, w
 ## Setting Up VSCode for GitHub
 
 1. **Install Git**:
-   - Ensure Git is installed on your system. If not, download it from [git-scm.com](https://git-scm.com/downloads).
-   - You can check if git is installed by running this in your terminal. This should already be installed from python lessons.
-     ```sh
+   - Ensure Git is installed on your system. You can install Git using Homebrew on macOS with the following command:
+     ```bash
+     brew install git
+     ```
+   - After installation, you can verify that Git is installed by checking the version:
+     ```bash
      git --version
      ```
 
@@ -60,7 +63,7 @@ Git is a version control system that allows you to track changes to your code, w
 * **Branches**
     - The most essential part of git. 
     - Allows for changes to happen in parallel without interfering.
-    # TODO add diagram of branches
+![image](images/git.png)
 * **Origin**
     - Tied with the concepts of Local and Remote, the origin is wherever you got your repository from, typically the main branch on github.
 * **Push**
@@ -77,9 +80,10 @@ Git is a version control system that allows you to track changes to your code, w
     - VSCode has tools to help! We'll check them out in a few minutes.
 * **[Git Concept Cheatsheet](https://medium.com/dwarsoft/git-for-beginners-part-i-basic-git-concepts-a7beb5a136d)**
     - Git can be confusing! Many people give many different explanations. If you find yourself confused, don't worry, you're the millionth person to google clarification on whatever you're trying to figure out. Look at a couple explanations and one of them ought to click!
+* **Organizations**
+    - groups of people with shared repositories
 
 ## Creating and using your own Repositories
-
 1. **Create a New Repository**:
    - Go to GitHub and create a new repository (Green 'New' button in the top left).
    - Give your repository a name, and create it, a public repo will make things easier.
@@ -129,76 +133,21 @@ Git is a version control system that allows you to track changes to your code, w
 5. **Commit your change to your branch**
 6. **Look for your changes on github**
     - Why isn't there? You're looking at the wrong branch!
-7. **Create a pull request!**
-
-## Basic Git Operations in VSCode
-
-### Staging and Committing Changes
-
-1. **Stage Changes**:
-   - Open the Source Control view (The three circles with lines connecting them).
-   - You will see your modified files listed under "Changes."
-   - Click the `+` icon next to the files you want to stage, or stage all changes at once by clicking the `+` icon next to "Changes."
-
-2. **Commit Changes**:
-   - After staging, enter a commit message in the text box.
-   - Click the checkmark icon to commit your changes.
-
-### Pushing Changes to GitHub
-
-1. **Push Changes**:
-   - After committing, click the `...` menu in the Source Control view.
-   - Select `Push` to send your changes to the remote repository on GitHub.
-
-### Pulling Changes from GitHub
-
-1. **Pull the Latest Changes**:
-   - To ensure your local repository is up-to-date, click the `...` menu and select `Pull`.
-   - This will fetch and merge changes from the remote repository on GitHub.
-
-## Working with Branches
-
-### Creating a New Branch
-
-1. **Create and Switch Branches**:
-   - In the lower-left corner of VSCode, click on the current branch name (e.g., `main`).
-   - Select `Create new branch` and name your branch.
-
-2. **Switch Between Branches**:
-   - Use the same branch menu to switch between different branches.
-
-### Pushing Branches to GitHub
-
-1. **Push a New Branch**:
-   - After creating and committing changes in your new branch, push it to GitHub by clicking `Push` in the Source Control view.
-   - VSCode will prompt you to publish the branch to the remote repository.
-
-## Creating Pull Requests on GitHub
-
-1. **Create a Pull Request (PR)**:
-   - Once your branch is pushed to GitHub, go to the repository on GitHub.
-   - Click `Compare & pull request` to start a new PR.
-   - Add a descriptive title and comment, and submit the PR.
-
-2. **Review and Merge PRs in VSCode**:
-   - Use the "GitHub Pull Requests and Issues" extension in VSCode to review and merge PRs.
-   - Go to the GitHub panel (`Ctrl + Shift + P` -> `GitHub: Open Pull Requests`) to view and manage your PRs.
-
-## Merging Branches and Handling Conflicts
-
-### Merging Branches in VSCode
-
-1. **Merge a Branch**:
-   - Switch to the branch you want to merge into (e.g., `main`).
-   - Open the branch menu in the lower-left corner and select `Merge branch...`.
-   - Choose the branch you want to merge.
-
-### Handling Merge Conflicts
-
-1. **Resolve Conflicts**:
-   - If a conflict occurs during the merge, the conflicted files will be highlighted in the Source Control view.
-   - Click on a conflicted file to open the merge editor, where you can select the changes to keep.
-   - Once resolved, stage the file and commit the merge.
+7. **Create a pull request**
+    - This requests to merge your changes with the changes in the main branch.
+    - Convenient popup shows in github, but we'll do it the right way in the pull requests tab.
+8. **Uh oh!**
+    - What happens if someone makes changes to the original before you make your changes? You get a **conflict**
+    - Back to VSCode! (usually easier to deal with this in github but this about learning)
+9. **Merge changes from main to your branch**
+    - Click on the ellipses in the top of the source control tab, then click 'Merge...' under the 'Branches' section.
+    - Merge changes from origin/main
+    - Commit and push your merge
+    - Fight to get your pull request accepted before someone else does first! If that happens you'll need to merge again!
+10. **DELETE YOUR BRANCHES AFTER MERGE**
+## **Optional Lesson: Forks**
+* Github exclusive concept, not a part of git. Sort of like a branch but for a whole repository between different owners.
+    - I love forks, I have so many.
 
 ## Best Practices for Git and GitHub
 
