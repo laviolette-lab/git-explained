@@ -1,8 +1,8 @@
 SIGN BELOW!
-<<<<<<< HEAD
 
 Biprojit Nath
-=======
+was here
+
 Savannah
 MICHAELSIGN BELOW!
 
@@ -14,4 +14,3 @@ now here too
 Allison Kirby Lowman 
 
 MICHAEL
->>>>>>> origin/main
