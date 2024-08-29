@@ -1,4 +1,9 @@
 SIGN BELOW!
+<<<<<<< HEAD
+
+
+Quincy
+=======
 Savannah
 MICHAELSIGN BELOW!
 
@@ -10,3 +15,4 @@ now here too
 Allison Kirby Lowman 
 
 MICHAEL
+>>>>>>> origin/main
