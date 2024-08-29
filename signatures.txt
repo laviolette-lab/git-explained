@@ -1,4 +1,11 @@
 SIGN BELOW!
+<<<<<<< HEAD
+
+
+Quincy
+=======
+Savannah
+MICHAELSIGN BELOW!
 
 Peter was here
 and here 
@@ -8,4 +15,8 @@ now here too
 Allison Kirby Lowman 
 
 MICHAEL
+<<<<<<< HEAD
 SB
+=======
+>>>>>>> origin/main
+>>>>>>> origin/main
