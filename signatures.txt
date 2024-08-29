@@ -1,2 +1,22 @@
 SIGN BELOW!
+<<<<<<< HEAD
 person
+=======
+<<<<<<< HEAD
+
+
+Quincy
+=======
+Savannah
+MICHAELSIGN BELOW!
+
+Peter was here
+and here 
+also here
+now here too
+
+Allison Kirby Lowman 
+
+MICHAEL
+>>>>>>> origin/main
+>>>>>>> origin/main
